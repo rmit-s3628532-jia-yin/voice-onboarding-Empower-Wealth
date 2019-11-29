@@ -1,4 +1,4 @@
-* Worked with a financial investment advisory company, Empower Wealth, on a voice bot to conduct an
+* Worked with a financial investment advisory company on a voice bot to conduct an
 interview to collect information from potential clients
 * Created an end-to-end system that can make a phone call to a client, ask questions based on a
 questionnaire, extract information from client responses, reply to the client accordingly, and send
