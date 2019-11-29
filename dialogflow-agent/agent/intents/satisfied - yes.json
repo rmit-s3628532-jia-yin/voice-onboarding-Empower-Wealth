@@ -1,0 +1,42 @@
+{
+  "id": "cf8959d6-a403-49b5-8a84-fdd48090fdf1",
+  "parentId": "b84fbcd1-aea2-4adb-8040-5558abb89d79",
+  "rootParentId": "07ac4824-5909-4957-a73a-53fde8ccf02f",
+  "name": "satisfied - yes",
+  "auto": true,
+  "contexts": [
+    "other-assets-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "other-assets.other-assets-no.other-assets-no-yes",
+      "affectedContexts": [
+        {
+          "name": "satisfied-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thank you for your time! We look forward to seeing you soon! Bye bye."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

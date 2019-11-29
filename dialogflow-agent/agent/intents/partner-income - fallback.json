@@ -1,0 +1,52 @@
+{
+  "id": "d7e5872c-1322-4eae-985f-662661e748f2",
+  "parentId": "9cc2bc32-ddd6-40c7-9b72-98d6c01ca3f1",
+  "rootParentId": "9cc2bc32-ddd6-40c7-9b72-98d6c01ca3f1",
+  "name": "partner-income - fallback",
+  "auto": false,
+  "contexts": [
+    "partner-income-followup",
+    "expenses-bills"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "partner-income.partner-income-fallback",
+      "affectedContexts": [
+        {
+          "name": "partner-income-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "expenses-bills",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry,  didn\u0027t get that. What is roughly your annual expenditure on bills again?",
+            "Sorry, I didn\u0027t get that. Can you repeat?",
+            "Sorry, could you say that again?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

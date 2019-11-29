@@ -1,0 +1,52 @@
+{
+  "id": "304ed273-d832-4640-8ece-2774eee85a28",
+  "parentId": "7f7ffbe6-0227-4573-8121-f9bad4e9a183",
+  "rootParentId": "8c3a5d83-13a2-46a4-ab52-e46e24f9a6f5",
+  "name": "expenses-spendings - no - fallback",
+  "auto": false,
+  "contexts": [
+    "expenses-spendings-no-followup",
+    "savings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "expenses-spendings.expenses-spendings-no.expenses-spendings-no-fallback",
+      "affectedContexts": [
+        {
+          "name": "expenses-spendings-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "savings",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry, I didn\u0027t get that. Can you repeat?",
+            "Sorry, could you say that again?",
+            "Sorry, I didn\u0027t get that. How much are your total savings and cash in your bank account?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

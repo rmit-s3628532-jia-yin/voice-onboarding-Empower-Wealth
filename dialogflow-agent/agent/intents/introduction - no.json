@@ -1,0 +1,61 @@
+{
+  "id": "c60f4421-da07-4b5b-afb2-c8a5928c10f1",
+  "parentId": "b2c82200-83bf-4106-8518-378fe8dc1675",
+  "rootParentId": "b2c82200-83bf-4106-8518-378fe8dc1675",
+  "name": "introduction - no",
+  "auto": true,
+  "contexts": [
+    "introduction-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "introduction.introduction-no",
+      "affectedContexts": [
+        {
+          "name": "partner",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "introduction-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "085ec754-cb45-4a6a-bf41-00b32a4f02ca",
+          "required": false,
+          "dataType": "@answer",
+          "name": "employed-bool",
+          "value": "no",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "no",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Next question; do you have a partner or spouse?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

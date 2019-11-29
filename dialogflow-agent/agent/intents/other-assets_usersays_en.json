@@ -1,0 +1,155 @@
+[
+  {
+    "id": "a5d93326-fa94-455a-9afc-82eaf0482b5c",
+    "data": [
+      {
+        "text": "around ",
+        "userDefined": false
+      },
+      {
+        "text": "65000",
+        "alias": "other-assets-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "dollars",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c4a2f15c-75c0-44d9-b812-e058190f5f61",
+    "data": [
+      {
+        "text": "I\u0027d say about ",
+        "userDefined": false
+      },
+      {
+        "text": "70000",
+        "alias": "other-assets-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b83eb57a-6d51-42e6-bb80-04e883c1fe50",
+    "data": [
+      {
+        "text": "around  ",
+        "userDefined": false
+      },
+      {
+        "text": "75000",
+        "alias": "other-assets-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d514e87c-fb7c-4da4-8ed3-e3a6d79620dd",
+    "data": [
+      {
+        "text": "approximately ",
+        "userDefined": false
+      },
+      {
+        "text": "60000",
+        "alias": "other-assets-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "abc1f118-5290-412f-beab-7d0facfaf04d",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "10000",
+        "alias": "other-assets-amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4ce4da78-eed8-4499-93c6-052dcb8a647d",
+    "data": [
+      {
+        "text": "50000",
+        "alias": "other-assets-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cd800bef-d741-4e19-b8f0-44b5dc740a64",
+    "data": [
+      {
+        "text": "fifty thousand",
+        "alias": "other-assets-amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "baf21899-8eec-481d-bf07-58449c1d42b4",
+    "data": [
+      {
+        "text": "i think around ",
+        "userDefined": false
+      },
+      {
+        "text": "125000",
+        "alias": "other-assets-amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

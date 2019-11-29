@@ -1,0 +1,87 @@
+schema = { 
+    "title": "user data",
+    "description": "data collected by dialogflow",
+    "type": "object",
+
+    "properties": {
+        "time": {
+            "description": "time data was sent", 
+            "type" : "integer"
+        },
+        "session_id": {
+            "description": "unique identifier of the data", 
+            "type" : "string"
+        },
+        "intent": {
+            "description": "intent which is triggered to sned the data", 
+            "type" : "string"
+        },
+        
+        "answers":{
+            'employed-bool': {
+                "description": "if the user is employed", 
+                "type" : "bool"
+            },
+            'employed-salary': {
+                "description": "user's salary", 
+                "type" : "integer"
+            },
+            'employed-timeunit': {
+                "description": "time unit, i.e. month, year", 
+                "type" : "string"
+            },
+            'partner-bool': {
+                "description": "if the user has a partner", 
+                "type" : "bool"
+            },
+            'partner-salary': {
+                "description": "salary of the partner", 
+                "type" : "integer"
+            },
+            'expenses-bills-amount': {
+                "description": "expenses on bill", 
+                "type" : "integer"
+            },
+            'expenses-bills-timeunit': {
+                "description": "time unit, i.e. week, month, year", 
+                "type" : "string"
+            },
+            'expenses-spendings-amount': {
+                "description": "expenses on other spendings", 
+                "type" : "integer"
+            },
+            'expenses-spendings-timeunit': {
+                "description": "time unit, i.e. month, year", 
+                "type" : "string"
+            },
+            'home-bool': {
+                "description": "if the user owns a home", 
+                "type" : "bool"
+            },
+            'home-value': {
+                "description": "value of the home", 
+                "type" : "integer"
+            },
+            'savings-amount': {
+                "description": "total savings in bak accounts", 
+                "type" : "integer"
+            },
+            'other-assets-amount': {
+                "description": "total value of other assets", 
+                "type" : "integer"
+            },
+            'loan-bool': {
+                "description": "if the user has a loan", 
+                "type" : "bool"
+            },
+            'loan-balance': {
+                "description": "loan balance amount", 
+                "type" : "integer"
+            },
+            'loan-repayment': {
+                "description": "loan repayment amount", 
+                "type" : "integer"
+            } 
+        } 
+    },
+}

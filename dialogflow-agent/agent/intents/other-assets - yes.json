@@ -1,0 +1,60 @@
+{
+  "id": "2bc11ad9-b386-466f-b52d-e6449d6e37c4",
+  "parentId": "07ac4824-5909-4957-a73a-53fde8ccf02f",
+  "rootParentId": "07ac4824-5909-4957-a73a-53fde8ccf02f",
+  "name": "other-assets - yes",
+  "auto": true,
+  "contexts": [
+    "other-assets-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "other-assets.other-assets-yes",
+      "affectedContexts": [
+        {
+          "name": "loan-balance",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "other-assets-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cb7e3e09-a591-4cdc-92ee-370df19ddd9c",
+          "required": false,
+          "dataType": "@answer",
+          "name": "loan-bool",
+          "value": "yes",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Alright, can you tell me the outstanding balance of it?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

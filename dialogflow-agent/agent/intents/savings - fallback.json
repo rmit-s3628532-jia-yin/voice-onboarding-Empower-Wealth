@@ -1,0 +1,52 @@
+{
+  "id": "eb408a7c-6d18-4b63-9f08-5812a8332db5",
+  "parentId": "9fcb66c3-c827-440a-862d-02c228a3ea4c",
+  "rootParentId": "9fcb66c3-c827-440a-862d-02c228a3ea4c",
+  "name": "savings - fallback",
+  "auto": false,
+  "contexts": [
+    "other-assets",
+    "savings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "savings.savings-fallback",
+      "affectedContexts": [
+        {
+          "name": "other-assets",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "savings-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry, could you say that again?",
+            "Sorry, I didn\u0027t get that. Can you say it again?",
+            "Sorry, I didn\u0027t get that. What is the total value of your other assets, such as cars and jewelry?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

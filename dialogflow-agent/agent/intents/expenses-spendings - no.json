@@ -1,0 +1,47 @@
+{
+  "id": "7f7ffbe6-0227-4573-8121-f9bad4e9a183",
+  "parentId": "8c3a5d83-13a2-46a4-ab52-e46e24f9a6f5",
+  "rootParentId": "8c3a5d83-13a2-46a4-ab52-e46e24f9a6f5",
+  "name": "expenses-spendings - no",
+  "auto": true,
+  "contexts": [
+    "expenses-spendings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "expenses-spendings.expenses-spendings-no",
+      "affectedContexts": [
+        {
+          "name": "savings",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "expenses-spendings-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Alright, and how much are your total savings and cash in your bank account?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

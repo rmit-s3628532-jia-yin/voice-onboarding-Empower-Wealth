@@ -1,0 +1,76 @@
+{
+  "id": "d5d8801f-b354-4c1e-a239-1034ca424cf1",
+  "name": "employment",
+  "auto": true,
+  "contexts": [
+    "employment"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "partner",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "employment-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4592580c-50b6-4483-9230-bd12d7a90963",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "employed-salary",
+          "value": "$employed-salary",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, I could not get that. Can you repeat your yearly salary?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "0",
+          "isList": false
+        },
+        {
+          "id": "dfe3478f-7a48-4cec-9ea0-b3fc4d691459",
+          "required": false,
+          "dataType": "@time-unit",
+          "name": "employed-timeunit",
+          "value": "$employed-timeunit",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Alright, lets move over to the next question. Do you have a partner or spouse?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

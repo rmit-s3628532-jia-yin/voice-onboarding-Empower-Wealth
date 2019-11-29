@@ -1,0 +1,17 @@
+[
+  {
+    "value": "employed",
+    "synonyms": [
+      "employed",
+      "currently employed",
+      "have a job"
+    ]
+  },
+  {
+    "value": "unemployed",
+    "synonyms": [
+      "unemployed",
+      "not employed"
+    ]
+  }
+]

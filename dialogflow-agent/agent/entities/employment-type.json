@@ -1,0 +1,9 @@
+{
+  "id": "09e98410-9c61-474c-b87f-a63f7535a9b9",
+  "name": "employment-type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": true
+}

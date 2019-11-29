@@ -1,0 +1,47 @@
+{
+  "id": "e55fe58d-42d8-44c5-bf72-6d2fd9271e9b",
+  "parentId": "b2c82200-83bf-4106-8518-378fe8dc1675",
+  "rootParentId": "b2c82200-83bf-4106-8518-378fe8dc1675",
+  "name": "introduction - fallback",
+  "auto": false,
+  "contexts": [
+    "introduction-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "introduction.introduction-fallback",
+      "affectedContexts": [
+        {
+          "name": "introduction-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "I didn\u0027t get that. Can you say it again?",
+            "Sorry, could you say that again?",
+            "I didn\u0027t get that. Can you repeat?",
+            "Sorry, I didn\u0027t get that. Are you employed?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

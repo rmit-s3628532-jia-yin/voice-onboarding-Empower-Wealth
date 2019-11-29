@@ -1,0 +1,58 @@
+{
+  "id": "07ac4824-5909-4957-a73a-53fde8ccf02f",
+  "name": "other-assets",
+  "auto": true,
+  "contexts": [
+    "other-assets"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "other-assets-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b9cc1839-d138-46d6-8cd7-88705a35bae8",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "other-assets-amount",
+          "value": "$other-assets-amount",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I\u0027m sorry. I could not quite get that. Could you repeat the amount?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Fantastic, and finally. Do you have any loans?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

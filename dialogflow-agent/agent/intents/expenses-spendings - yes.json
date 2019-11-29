@@ -1,0 +1,60 @@
+{
+  "id": "0dc49be7-529d-4f8d-99d5-28d477fc450d",
+  "parentId": "8c3a5d83-13a2-46a4-ab52-e46e24f9a6f5",
+  "rootParentId": "8c3a5d83-13a2-46a4-ab52-e46e24f9a6f5",
+  "name": "expenses-spendings - yes",
+  "auto": true,
+  "contexts": [
+    "expenses-spendings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "expenses-spendings.expenses-spendings-yes",
+      "affectedContexts": [
+        {
+          "name": "home-value",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "expenses-spendings-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "65894c21-3075-4478-b0fb-a9460af0b1b5",
+          "required": false,
+          "dataType": "@answer",
+          "name": "home-bool",
+          "value": "yes",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "And how much is that home worth?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

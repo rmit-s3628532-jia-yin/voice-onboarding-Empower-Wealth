@@ -1,0 +1,61 @@
+{
+  "id": "0c16e531-9ff2-4d8f-b653-47d834087c4f",
+  "parentId": "d5d8801f-b354-4c1e-a239-1034ca424cf1",
+  "rootParentId": "d5d8801f-b354-4c1e-a239-1034ca424cf1",
+  "name": "employment - yes",
+  "auto": true,
+  "contexts": [
+    "employment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "employment.employment-yes",
+      "affectedContexts": [
+        {
+          "name": "partner-income",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "employment-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d2ca7823-c7d7-4f94-a175-173c215b87ff",
+          "required": false,
+          "dataType": "@answer",
+          "name": "partner-bool",
+          "value": "yes",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "yes",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "And what is your partners rough annual salary?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

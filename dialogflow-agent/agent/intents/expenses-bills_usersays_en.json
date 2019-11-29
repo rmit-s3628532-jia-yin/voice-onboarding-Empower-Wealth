@@ -1,0 +1,262 @@
+[
+  {
+    "id": "7cbd672a-4a79-4389-b5b8-2588ef77f5ad",
+    "data": [
+      {
+        "text": "50000",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "93f975cb-2ae7-4900-9b32-b7c464f9410d",
+    "data": [
+      {
+        "text": "5000",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "976da420-7a41-48f1-9ea6-ee9029447a6a",
+    "data": [
+      {
+        "text": "4000",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "baf2eb20-e13b-4c10-ba31-4aea80ff3441",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "3000",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e704637a-0a1d-4e0d-b979-f785a7f2feb7",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "2500",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "alias": "expenses-bills-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5aa9d905-3b3b-41f4-b00f-65971bb6befd",
+    "data": [
+      {
+        "text": "about ",
+        "userDefined": false
+      },
+      {
+        "text": "4000",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars a ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "alias": "expenses-bills-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1f65a3c6-e568-4713-aaa3-c6b45b0f0433",
+    "data": [
+      {
+        "text": "around $",
+        "userDefined": false
+      },
+      {
+        "text": "90000",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "alias": "expenses-bills-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "42487e18-361a-4764-9778-663f8bcdc6ea",
+    "data": [
+      {
+        "text": "i estimate it to be around ",
+        "userDefined": false
+      },
+      {
+        "text": "12000",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "month",
+        "alias": "expenses-bills-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4842748f-f443-4410-9fb0-7ff3203193df",
+    "data": [
+      {
+        "text": "roughly ",
+        "userDefined": false
+      },
+      {
+        "text": "13500",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fortnightly",
+        "alias": "expenses-bills-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e50316b7-fd99-4639-a749-71590d35a6f9",
+    "data": [
+      {
+        "text": "its about ",
+        "userDefined": false
+      },
+      {
+        "text": "2500",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "week",
+        "alias": "expenses-bills-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "35ce5569-0072-402a-a74d-b6e15521cb49",
+    "data": [
+      {
+        "text": "we spend around ",
+        "userDefined": false
+      },
+      {
+        "text": "125000",
+        "alias": "expenses-bills-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "alias": "expenses-bills-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "id": "9cc2bc32-ddd6-40c7-9b72-98d6c01ca3f1",
+  "name": "partner-income",
+  "auto": true,
+  "contexts": [
+    "partner-income"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "expenses-bills",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "partner-income-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5918325a-9af7-4328-bb27-dacdecb02316",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "partner-salary",
+          "value": "$partner-salary",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, could you repeat your partners salary?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thank you. Next we would like to quickly go over expenses. What is roughly your annual expenditure on bills?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

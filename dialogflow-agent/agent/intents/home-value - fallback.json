@@ -1,0 +1,52 @@
+{
+  "id": "49adc590-fafd-47f6-8bdf-6d21d8e4bffc",
+  "parentId": "06fd9918-820b-4d9b-8f40-29aabfadf489",
+  "rootParentId": "06fd9918-820b-4d9b-8f40-29aabfadf489",
+  "name": "home-value - fallback",
+  "auto": false,
+  "contexts": [
+    "home-value-followup",
+    "savings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "home-value.home-value-fallback",
+      "affectedContexts": [
+        {
+          "name": "home-value-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "savings",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry, I didn\u0027t get that. Can you repeat?",
+            "Sorry, could you say that again?",
+            "Sorry, I didn\u0027t get that. How much are your total savings and cash in your bank account?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

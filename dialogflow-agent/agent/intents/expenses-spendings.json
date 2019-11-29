@@ -1,0 +1,71 @@
+{
+  "id": "8c3a5d83-13a2-46a4-ab52-e46e24f9a6f5",
+  "name": "expenses-spendings",
+  "auto": true,
+  "contexts": [
+    "expenses-spendings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "expenses-spendings-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "59702ae5-e261-402a-a091-81565dff692f",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "expenses-spendings-amount",
+          "value": "$expenses-spendings-amount",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, could you repeat amount your other spendings are annually?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "2cbbec45-e92d-4674-b2c7-b2683b7d8b90",
+          "required": false,
+          "dataType": "@time-unit",
+          "name": "expenses-spendings-timeunit",
+          "value": "$expenses-spendings-timeunit",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "annually",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Alright, lets move over to the assets part of the questionnaire. Do you own a home?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "b2c82200-83bf-4106-8518-378fe8dc1675",
+  "name": "introduction",
+  "auto": true,
+  "contexts": [
+    "introduction"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "introduction-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Excellent. This questionnaire should take approximately five minutes, and you may stop it at any time by saying \"I want to quit\". Should you do this any previously submitted answers will be deleted and the call will be terminated.\n\nTo start us off, are you currently employed?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

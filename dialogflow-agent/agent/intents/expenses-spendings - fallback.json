@@ -1,0 +1,46 @@
+{
+  "id": "45e8e7c4-59f9-445d-81be-fc1b8c1b5cdf",
+  "parentId": "8c3a5d83-13a2-46a4-ab52-e46e24f9a6f5",
+  "rootParentId": "8c3a5d83-13a2-46a4-ab52-e46e24f9a6f5",
+  "name": "expenses-spendings - fallback",
+  "auto": false,
+  "contexts": [
+    "expenses-spendings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "expenses-spendings.expenses-spendings-fallback",
+      "affectedContexts": [
+        {
+          "name": "expenses-spendings-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry, could you say that again?",
+            "Sorry, I didn\u0027t get that. Can you say it again?",
+            "Sorry, I didn\u0027t get that. Do you own a home?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

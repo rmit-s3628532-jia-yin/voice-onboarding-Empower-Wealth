@@ -1,0 +1,52 @@
+{
+  "id": "4b42591e-0464-415c-bcdc-7cc47db0bc26",
+  "parentId": "0c16e531-9ff2-4d8f-b653-47d834087c4f",
+  "rootParentId": "d5d8801f-b354-4c1e-a239-1034ca424cf1",
+  "name": "employment - yes - fallback",
+  "auto": false,
+  "contexts": [
+    "employment-yes-followup",
+    "partner-income"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "employment.employment-yes.employment-yes-fallback",
+      "affectedContexts": [
+        {
+          "name": "employment-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "partner-income",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry, could you say that again?",
+            "Sorry, I didn\u0027t get that. Can you repeat?",
+            "Sorry, I didn\u0027t get that. What was your partners rough annual salary again?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

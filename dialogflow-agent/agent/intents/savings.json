@@ -1,0 +1,63 @@
+{
+  "id": "9fcb66c3-c827-440a-862d-02c228a3ea4c",
+  "name": "savings",
+  "auto": true,
+  "contexts": [
+    "savings"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "other-assets",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "savings-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c2abd66e-4ec1-47ca-8282-ddb18301c477",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "savings-amount",
+          "value": "$savings-amount",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I\u0027m sorry. I could not quite get that. Could you repeat the amount?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "And what is the total value of your other assets, such as cars and jewelry?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

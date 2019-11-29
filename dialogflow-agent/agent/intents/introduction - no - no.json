@@ -1,0 +1,55 @@
+{
+  "id": "c390a00b-be67-4e74-a973-d92d206dff95",
+  "parentId": "c60f4421-da07-4b5b-afb2-c8a5928c10f1",
+  "rootParentId": "b2c82200-83bf-4106-8518-378fe8dc1675",
+  "name": "introduction - no - no",
+  "auto": true,
+  "contexts": [
+    "introduction-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "introduction.introduction-no.introduction-no-no",
+      "affectedContexts": [
+        {
+          "name": "expenses-bills",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "60b14c08-9a3f-404a-ae51-5d2c6e9ad673",
+          "required": false,
+          "dataType": "@answer",
+          "name": "partner-bool",
+          "value": "no",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Alright. Lets go over your expenses quickly. What is roughly your annual expenditure on bills?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

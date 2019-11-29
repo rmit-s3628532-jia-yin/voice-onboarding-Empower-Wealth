@@ -1,0 +1,256 @@
+[
+  {
+    "id": "207eac7a-8147-4e19-ad7c-fa0909012a1f",
+    "data": [
+      {
+        "text": "4000",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fa2ee47a-f3ef-4367-9a08-371f9cb65a37",
+    "data": [
+      {
+        "text": "50000",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8ef14bf3-2453-42e2-83c4-4ec6fc7dd39b",
+    "data": [
+      {
+        "text": "about $",
+        "userDefined": false
+      },
+      {
+        "text": "45000",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "727bf5d6-41ca-49df-aaa9-e4414e022653",
+    "data": [
+      {
+        "text": "around $",
+        "userDefined": false
+      },
+      {
+        "text": "50000",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9a7ac21a-731a-4b12-a8e4-09e69670424b",
+    "data": [
+      {
+        "text": "around ",
+        "userDefined": false
+      },
+      {
+        "text": "45000",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "632581e2-6c02-41b8-a3b2-3ff77ddead76",
+    "data": [
+      {
+        "text": "40000",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "41583385-ca56-4d1d-aff1-d39ed5d5ab94",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "30000",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "27f22962-d04d-478c-ab2d-602e9bb723a0",
+    "data": [
+      {
+        "text": "13000",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "alias": "expenses-spendings-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5a0ac38e-3a12-4775-b1f0-e9dc00d3d2c9",
+    "data": [
+      {
+        "text": "i estimate it to be around ",
+        "userDefined": false
+      },
+      {
+        "text": "12000",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "month",
+        "alias": "expenses-spendings-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16f7d736-ed6b-4239-9c52-ff89fca71074",
+    "data": [
+      {
+        "text": "we spend about ",
+        "userDefined": false
+      },
+      {
+        "text": "125000",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "alias": "expenses-spendings-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ffd5d80a-78bc-47a5-90fd-399127834014",
+    "data": [
+      {
+        "text": "its about ",
+        "userDefined": false
+      },
+      {
+        "text": "2500",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "week",
+        "alias": "expenses-spendings-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "83fecc54-94e3-4dfd-840d-3a90dfb78d02",
+    "data": [
+      {
+        "text": "roughly ",
+        "userDefined": false
+      },
+      {
+        "text": "13500",
+        "alias": "expenses-spendings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fortnightly",
+        "alias": "expenses-spendings-timeunit",
+        "meta": "@time-unit",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

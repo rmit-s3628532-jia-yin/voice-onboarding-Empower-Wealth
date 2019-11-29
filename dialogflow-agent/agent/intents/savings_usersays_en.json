@@ -1,0 +1,150 @@
+[
+  {
+    "id": "c660ae55-9e7d-4217-ac59-c83bde527bb6",
+    "data": [
+      {
+        "text": "i think around ",
+        "userDefined": false
+      },
+      {
+        "text": "125000",
+        "alias": "savings-amount",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6cf9e9c1-4bf2-4bb7-bd0b-514a1b5bb9da",
+    "data": [
+      {
+        "text": "fifty thousand",
+        "alias": "savings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "993e8389-94ec-4894-9a04-f59fd5b8f9c1",
+    "data": [
+      {
+        "text": "50000",
+        "alias": "savings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f86298b0-b258-47b3-a367-c998ab3fd3ac",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "10000",
+        "alias": "savings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b141ca0-dc82-44e7-a0f0-3b20522d87e8",
+    "data": [
+      {
+        "text": "approximately ",
+        "userDefined": false
+      },
+      {
+        "text": "60000",
+        "alias": "savings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e3af1e69-ebd6-4c0e-98a7-830c5c02a398",
+    "data": [
+      {
+        "text": "around  ",
+        "userDefined": false
+      },
+      {
+        "text": "75000",
+        "alias": "savings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8320a288-d1e9-4f91-ac0a-f45398afabb3",
+    "data": [
+      {
+        "text": "I\u0027d say about ",
+        "userDefined": false
+      },
+      {
+        "text": "70000",
+        "alias": "savings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cff2a227-7d3f-483e-b245-0b3c510106df",
+    "data": [
+      {
+        "text": "around ",
+        "userDefined": false
+      },
+      {
+        "text": "65000",
+        "alias": "savings-amount",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

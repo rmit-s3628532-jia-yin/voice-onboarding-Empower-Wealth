@@ -1,0 +1,38 @@
+{
+  "id": "09cd5639-6af8-40a9-821a-d61eabb66b62",
+  "parentId": "5800df0f-8bbf-4f1b-a993-38ded11a3e17",
+  "rootParentId": "5800df0f-8bbf-4f1b-a993-38ded11a3e17",
+  "name": "loan-repayment - yes",
+  "auto": true,
+  "contexts": [
+    "other-assets-no-followup",
+    "loan-repayment-followup",
+    "loan-repayment-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "loan-repayment.loan-repayment-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thank you for your time. We look forward to seeing you soon! Bye bye."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "6a8d4aeb-6fd4-4abe-adf3-70bb77fa773c",
+  "parentId": "8486952b-8c49-4eef-9971-5d04a4bab740",
+  "rootParentId": "8486952b-8c49-4eef-9971-5d04a4bab740",
+  "name": "loan-balance - fallback",
+  "auto": false,
+  "contexts": [
+    "loan-balance-followup",
+    "loan-repayment"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "loan-balance.loan-balance-fallback",
+      "affectedContexts": [
+        {
+          "name": "loan-balance-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "loan-repayment",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry, could you say that again?",
+            "Sorry, I didn\u0027t get that. Can you say it again?",
+            "Sorry, I didn\u0027t get that. How much are your annual repayments again?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

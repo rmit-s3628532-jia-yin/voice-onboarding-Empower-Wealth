@@ -1,0 +1,63 @@
+{
+  "id": "8486952b-8c49-4eef-9971-5d04a4bab740",
+  "name": "loan-balance",
+  "auto": true,
+  "contexts": [
+    "loan-balance"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "loan-repayment",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "loan-balance-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2a242cbd-8044-4cfb-a4e3-64e758d832fa",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "loan-balance",
+          "value": "$loan-balance",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I\u0027m sorry. I could not quite get that. Could you repeat the amount?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "How much are your annual repayments?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

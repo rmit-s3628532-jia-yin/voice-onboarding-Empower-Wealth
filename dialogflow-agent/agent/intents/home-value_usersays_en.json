@@ -1,0 +1,150 @@
+[
+  {
+    "id": "3fd4a192-b3da-4af5-836f-1071ff64927e",
+    "data": [
+      {
+        "text": "approximately ",
+        "userDefined": false
+      },
+      {
+        "text": "60000",
+        "alias": "home-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dede6974-02f6-44b4-bf3d-783438774c29",
+    "data": [
+      {
+        "text": "I\u0027d say about ",
+        "userDefined": false
+      },
+      {
+        "text": "70000",
+        "alias": "home-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4a78740d-df1a-42d6-9071-228d23d7c871",
+    "data": [
+      {
+        "text": "around ",
+        "userDefined": false
+      },
+      {
+        "text": "65000",
+        "alias": "home-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "41852b21-94a2-499e-a159-d66a01ff2b5e",
+    "data": [
+      {
+        "text": "around  ",
+        "userDefined": false
+      },
+      {
+        "text": "75000",
+        "alias": "home-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4140b006-bd92-40e5-8659-edcde0f589c9",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "10000",
+        "alias": "home-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "49148bd4-92df-4524-951e-23a93d14babb",
+    "data": [
+      {
+        "text": "50000",
+        "alias": "home-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "66ec8da2-f6ec-4c21-8b64-ce4fd8a44e10",
+    "data": [
+      {
+        "text": "fifty thousand",
+        "alias": "home-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7f8d6c08-3865-4d45-8713-68d76adbab82",
+    "data": [
+      {
+        "text": "i think around ",
+        "userDefined": false
+      },
+      {
+        "text": "125000",
+        "alias": "home-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

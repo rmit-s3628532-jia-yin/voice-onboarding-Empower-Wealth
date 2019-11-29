@@ -1,0 +1,50 @@
+[
+  {
+    "value": "month",
+    "synonyms": [
+      "month",
+      "months",
+      "every month",
+      "each month"
+    ]
+  },
+  {
+    "value": "fortnight",
+    "synonyms": [
+      "fortnight",
+      "fortnights",
+      "every fortnight",
+      "each fortnight",
+      "bi weekly"
+    ]
+  },
+  {
+    "value": "week",
+    "synonyms": [
+      "week",
+      "weeks",
+      "every week",
+      "each week"
+    ]
+  },
+  {
+    "value": "year",
+    "synonyms": [
+      "year",
+      "yearly",
+      "annualy",
+      "annual",
+      "every year",
+      "each year"
+    ]
+  },
+  {
+    "value": "day",
+    "synonyms": [
+      "day",
+      "daily",
+      "each day",
+      "every day"
+    ]
+  }
+]

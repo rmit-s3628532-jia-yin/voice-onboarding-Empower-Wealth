@@ -1,0 +1,150 @@
+[
+  {
+    "id": "2cbdb504-d845-4d22-b60f-91cc0bf20f65",
+    "data": [
+      {
+        "text": "around ",
+        "userDefined": false
+      },
+      {
+        "text": "65000",
+        "alias": "loan-repayment",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "edb7ecff-66e4-4925-8b8d-5e6d82e180eb",
+    "data": [
+      {
+        "text": "I\u0027d say about ",
+        "userDefined": false
+      },
+      {
+        "text": "70000",
+        "alias": "loan-repayment",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "545744d8-e32a-4343-97eb-f5b6db06ae8d",
+    "data": [
+      {
+        "text": "around  ",
+        "userDefined": false
+      },
+      {
+        "text": "75000",
+        "alias": "loan-repayment",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fb68b308-211e-4fe1-a6ac-540f0535ae00",
+    "data": [
+      {
+        "text": "approximately ",
+        "userDefined": false
+      },
+      {
+        "text": "60000",
+        "alias": "loan-repayment",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "99d02965-edf3-4cd0-b295-a2bdc29a113a",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "10000",
+        "alias": "loan-repayment",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8db06be4-44ba-4511-8083-983125a5466c",
+    "data": [
+      {
+        "text": "50000",
+        "alias": "loan-repayment",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2df55ee0-2a63-4ac0-a29b-41553d72a88c",
+    "data": [
+      {
+        "text": "fifty thousand",
+        "alias": "loan-repayment",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "499616c3-e8a7-448a-bc1c-d2c2b08fc6d1",
+    "data": [
+      {
+        "text": "i think around ",
+        "userDefined": false
+      },
+      {
+        "text": "125000",
+        "alias": "loan-repayment",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

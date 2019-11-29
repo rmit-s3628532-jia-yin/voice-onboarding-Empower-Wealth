@@ -1,0 +1,150 @@
+[
+  {
+    "id": "521c4183-b23f-4590-97ff-7cdfbea932d8",
+    "data": [
+      {
+        "text": "i think around ",
+        "userDefined": false
+      },
+      {
+        "text": "125000",
+        "alias": "loan-balance",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "26d1ef86-7392-46b5-9324-ff41b13ece1c",
+    "data": [
+      {
+        "text": "fifty thousand",
+        "alias": "loan-balance",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc814f13-82b7-4647-85be-a7f31b67bc88",
+    "data": [
+      {
+        "text": "50000",
+        "alias": "loan-balance",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6ffde927-5fba-4116-adfb-62bbd391332b",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "10000",
+        "alias": "loan-balance",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "99c97ed5-9b51-4e0c-977d-4b1373cc24a7",
+    "data": [
+      {
+        "text": "approximately ",
+        "userDefined": false
+      },
+      {
+        "text": "60000",
+        "alias": "loan-balance",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4831da61-ab4e-49e8-a5f8-68c586eb7e87",
+    "data": [
+      {
+        "text": "around  ",
+        "userDefined": false
+      },
+      {
+        "text": "75000",
+        "alias": "loan-balance",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2fdf3c3d-27cf-471b-8b21-d68916a706c5",
+    "data": [
+      {
+        "text": "I\u0027d say about ",
+        "userDefined": false
+      },
+      {
+        "text": "70000",
+        "alias": "loan-balance",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "854e1e1f-0e6d-409b-941f-3eaa81dca6a8",
+    "data": [
+      {
+        "text": "around ",
+        "userDefined": false
+      },
+      {
+        "text": "65000",
+        "alias": "loan-balance",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

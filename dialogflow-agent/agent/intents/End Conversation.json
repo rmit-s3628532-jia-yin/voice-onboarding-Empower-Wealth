@@ -1,0 +1,53 @@
+{
+  "id": "226b669a-2684-4820-9444-b9ab04bb0e00",
+  "name": "End Conversation",
+  "auto": true,
+  "contexts": [
+    "end"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "end.conversation",
+      "affectedContexts": [
+        {
+          "name": "end",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cf855c38-97f1-4181-b26b-dd87a55b7888",
+          "required": false,
+          "dataType": "@answer",
+          "name": "answer",
+          "value": "$answer",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thank you for your time! We look forward to seeing you soon"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+{
+  "id": "4cefbfcd-72b1-47dc-8f52-1e878ecc8ed7",
+  "parentId": "150d2fb8-cbcd-44db-9372-725d089eaa3d",
+  "rootParentId": "150d2fb8-cbcd-44db-9372-725d089eaa3d",
+  "name": "Default Welcome Intent - fallback",
+  "auto": false,
+  "contexts": [
+    "DefaultWelcomeIntent-followup",
+    "quit",
+    "introduction"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-fallback",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "introduction",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "I didn\u0027t get that. Can you say it again?",
+            "I missed what you said. What was that?",
+            "Sorry, could you say that again?",
+            "I didn\u0027t get that. Can you repeat?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

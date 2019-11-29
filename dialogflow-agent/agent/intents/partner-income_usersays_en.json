@@ -1,0 +1,450 @@
+[
+  {
+    "id": "f1dd5a79-cea5-4874-9999-49001192a110",
+    "data": [
+      {
+        "text": "they make ",
+        "userDefined": false
+      },
+      {
+        "text": "50000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars a year",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a0f56b6a-cbfb-42d3-b5c1-4d72ae916a5c",
+    "data": [
+      {
+        "text": "i think around ",
+        "userDefined": false
+      },
+      {
+        "text": "125000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a year",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4f4cb255-b663-4e29-a901-9f72f92d7480",
+    "data": [
+      {
+        "text": "fifty thousand",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c5e24526-b39d-4022-a1b7-e96fe99682af",
+    "data": [
+      {
+        "text": "he makes ",
+        "userDefined": false
+      },
+      {
+        "text": "50000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars a year",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af88d601-d23d-40c7-9bee-02f1a2ee67be",
+    "data": [
+      {
+        "text": "50000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "50292663-a29f-4ddd-adb3-1397383e6a79",
+    "data": [
+      {
+        "text": "$",
+        "userDefined": false
+      },
+      {
+        "text": "10000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a1e5a340-e591-4766-bc32-0df52e0d89a9",
+    "data": [
+      {
+        "text": "around  ",
+        "userDefined": false
+      },
+      {
+        "text": "75000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "918fa5f8-0ce3-42c2-8fdb-3113b077445d",
+    "data": [
+      {
+        "text": "around $",
+        "userDefined": false
+      },
+      {
+        "text": "87000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c603a0e3-6f62-4f27-9eab-af7037f4d0e1",
+    "data": [
+      {
+        "text": "about $",
+        "userDefined": false
+      },
+      {
+        "text": "80000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c9cb27a8-5b9f-4454-b222-eded1b31c6a9",
+    "data": [
+      {
+        "text": "she makes $",
+        "userDefined": false
+      },
+      {
+        "text": "90000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6e6b4047-80e5-4038-aeac-4ccb97877657",
+    "data": [
+      {
+        "text": "around ",
+        "userDefined": false
+      },
+      {
+        "text": "65000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c2368a7-506a-4156-998b-f2bad0bb051b",
+    "data": [
+      {
+        "text": "I\u0027d say about ",
+        "userDefined": false
+      },
+      {
+        "text": "70000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " per year",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b4f7b6ab-8b15-4b03-a5d2-5174e970a87c",
+    "data": [
+      {
+        "text": "her salary is about ",
+        "userDefined": false
+      },
+      {
+        "text": "55000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " a year",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef8c04be-3f8e-4b83-9d97-14e88836f87d",
+    "data": [
+      {
+        "text": "approximately ",
+        "userDefined": false
+      },
+      {
+        "text": "60000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " per ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f4842ff0-bae8-4e6f-8515-ce59cb4f5d58",
+    "data": [
+      {
+        "text": "5000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d11d6988-b9b8-45c3-86b1-089205701d0a",
+    "data": [
+      {
+        "text": "about ",
+        "userDefined": false
+      },
+      {
+        "text": "75000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5730259c-e1f6-4318-b642-7550e6de5261",
+    "data": [
+      {
+        "text": "around ",
+        "userDefined": false
+      },
+      {
+        "text": "80000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "dollars",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "00d82ec6-c92d-4783-bffa-fa5ceb85f30d",
+    "data": [
+      {
+        "text": "she makes ",
+        "userDefined": false
+      },
+      {
+        "text": "100000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "630f9f3d-3e36-4798-9ff9-b855378ed374",
+    "data": [
+      {
+        "text": "he makes ",
+        "userDefined": false
+      },
+      {
+        "text": "10000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "year",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01a705c0-5a12-4b52-bcae-ea0a9520f04c",
+    "data": [
+      {
+        "text": "10000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9fe94f07-2768-4013-a717-2beee418bb47",
+    "data": [
+      {
+        "text": "about ",
+        "userDefined": false
+      },
+      {
+        "text": "10000",
+        "alias": "partner-salary",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

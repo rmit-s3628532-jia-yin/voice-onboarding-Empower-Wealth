@@ -1,0 +1,33 @@
+{
+  "id": "e542da28-155b-45e3-a725-44ef075c245d",
+  "name": "quit",
+  "auto": true,
+  "contexts": [
+    "quit"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Thank you for your time. Your answers have been deleted, and you can expect a call from an Empower Wealth Consultant in the next couple of days."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

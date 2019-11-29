@@ -1,0 +1,55 @@
+{
+  "id": "b84fbcd1-aea2-4adb-8040-5558abb89d79",
+  "parentId": "07ac4824-5909-4957-a73a-53fde8ccf02f",
+  "rootParentId": "07ac4824-5909-4957-a73a-53fde8ccf02f",
+  "name": "other-assets - no",
+  "auto": true,
+  "contexts": [
+    "other-assets-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "other-assets.other-assets-no",
+      "affectedContexts": [
+        {
+          "name": "other-assets-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f7709360-ae44-4254-897b-4f07d1eac29d",
+          "required": false,
+          "dataType": "@answer",
+          "name": "loan-bool",
+          "value": "no",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "b67a4098-26f5-4587-a989-2b992bda8c7b",
+  "parentId": "0dc49be7-529d-4f8d-99d5-28d477fc450d",
+  "rootParentId": "8c3a5d83-13a2-46a4-ab52-e46e24f9a6f5",
+  "name": "expenses-spendings - yes - fallback",
+  "auto": false,
+  "contexts": [
+    "expenses-spendings-yes-followup",
+    "home-value"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "expenses-spendings.expenses-spendings-yes.expenses-spendings-yes-fallback",
+      "affectedContexts": [
+        {
+          "name": "expenses-spendings-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "home-value",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry, could you say that again?",
+            "Sorry, I didn\u0027t get that. Can you repeat?",
+            "Sorry, I didn\u0027t get that. How much is your home worth again?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

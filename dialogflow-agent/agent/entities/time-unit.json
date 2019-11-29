@@ -1,0 +1,9 @@
+{
+  "id": "3018af50-ccd4-4087-9dd1-6f14e26ff908",
+  "name": "time-unit",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

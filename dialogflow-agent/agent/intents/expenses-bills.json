@@ -1,0 +1,75 @@
+{
+  "id": "365f7e9d-06ba-4d80-9402-709903afa4b9",
+  "name": "expenses-bills",
+  "auto": true,
+  "contexts": [
+    "expenses-bills"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "expenses-spendings",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "expenses-bills-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c26591dc-54f3-4081-89ea-4bf8c112e040",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "expenses-bills-amount",
+          "value": "$expenses-bills-amount",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, could you repeat amount you spend on bills each year?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "6fdbda9b-ac01-4fda-af12-d48db510382c",
+          "required": false,
+          "dataType": "@time-unit",
+          "name": "expenses-bills-timeunit",
+          "value": "$expenses-bills-timeunit",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "And also how much are your expenses on other spendings annually?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

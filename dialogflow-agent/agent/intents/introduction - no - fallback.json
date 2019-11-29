@@ -1,0 +1,52 @@
+{
+  "id": "b60ca8e1-0555-49e7-827d-01676e208970",
+  "parentId": "c60f4421-da07-4b5b-afb2-c8a5928c10f1",
+  "rootParentId": "b2c82200-83bf-4106-8518-378fe8dc1675",
+  "name": "introduction - no - fallback",
+  "auto": false,
+  "contexts": [
+    "partner",
+    "introduction-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "introduction.introduction-no.introduction-no-fallback",
+      "affectedContexts": [
+        {
+          "name": "partner",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "introduction-no-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry, I didn\u0027t get that. Can you say that again?",
+            "I didn\u0027t get that, sorry. Do you have a partner or spouse?",
+            "I didn\u0027t get that. Can you repeat?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

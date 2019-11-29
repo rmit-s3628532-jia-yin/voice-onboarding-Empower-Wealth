@@ -1,0 +1,46 @@
+{
+  "id": "44effd54-f0c0-48b4-abef-56943fb579a2",
+  "parentId": "07ac4824-5909-4957-a73a-53fde8ccf02f",
+  "rootParentId": "07ac4824-5909-4957-a73a-53fde8ccf02f",
+  "name": "other-assets - fallback",
+  "auto": false,
+  "contexts": [
+    "other-assets-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "other-assets.other-assets-fallback",
+      "affectedContexts": [
+        {
+          "name": "other-assets-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "Sorry, could you say that again?",
+            "Sorry, I didn\u0027t get that. Can you say it again?",
+            "Sorry, I didn\u0027t get that. Do you have any loans?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

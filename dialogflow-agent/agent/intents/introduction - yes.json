@@ -1,0 +1,67 @@
+{
+  "id": "82270f28-09c9-482d-9c92-d5409e5a223f",
+  "parentId": "b2c82200-83bf-4106-8518-378fe8dc1675",
+  "rootParentId": "b2c82200-83bf-4106-8518-378fe8dc1675",
+  "name": "introduction - yes",
+  "auto": true,
+  "contexts": [
+    "introduction-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "introduction.introduction-yes",
+      "affectedContexts": [
+        {
+          "name": "employment",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "introduction-yes-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7d10fff2-a24d-4fec-b6ab-12ab66eb8ff6",
+          "required": false,
+          "dataType": "@answer",
+          "name": "employed-bool",
+          "value": "yes",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, could you repeat that?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "yes",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "And what is your approximate yearly salary?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

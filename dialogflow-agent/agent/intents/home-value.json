@@ -1,0 +1,63 @@
+{
+  "id": "06fd9918-820b-4d9b-8f40-29aabfadf489",
+  "name": "home-value",
+  "auto": true,
+  "contexts": [
+    "home-value"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "savings",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "home-value-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a8a2a398-cee4-4ffb-99f7-4d76d23dc144",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "home-value",
+          "value": "$home-value",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, could you repeat  the value of your home?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "OK, and how much money do you have stored in your bank accounts?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
